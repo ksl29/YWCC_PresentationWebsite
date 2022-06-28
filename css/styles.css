@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+table {
+    margin: 10px auto;
+
+}
+table, th, tr, td {
+    border: 1px solid black;
+}
+td, th {
+    padding: 10px 25px;
+}
+.content {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 720px;
+
+}
+
+header {
+    background-color: blue;
+    height: 70px;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
+h2 {
+    color: blue;
+    margin-top: 10px;
+}
+h3 {
+    margin-top: 10px;
+}
+p{
+    padding: 8px 0;
+    line-height: 20px;
+}
+
+#web1q {
+    padding: 10px;
+}
+embed {
+    width: 720px;
+    height: 500px;
+}
+footer { 
+    text-align: center;
+}
